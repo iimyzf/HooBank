@@ -3,7 +3,9 @@ import styles, { layout } from "../style";
 
 const Billing = () => (
     <section id="product" className={layout.sectionReverse}>
-        <div className={layout.sectionImgReverse}>
+        <div
+            className={`${styles.flexCenter} ${layout.sectionImgReverse} ml-5 pl-5 text-center flex flex-1 justify-center items-center`}
+        >
             <img
                 src={bill}
                 alt="billing"
@@ -16,7 +18,7 @@ const Billing = () => (
             {/* gradient end */}
         </div>
 
-        <div className={layout.sectionInfo}>
+        <div className={`${layout.sectionInfo}`}>
             <h2 className={styles.heading2}>
                 Easily control your <br className="sm:block hidden" /> billing &
                 invoicing

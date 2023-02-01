@@ -203,10 +203,10 @@ export const clients = [
     },
     {
         id: "client-3",
-        logo: coinbase,
+        logo: dropbox,
     },
     {
         id: "client-4",
-        logo: dropbox,
+        logo: coinbase,
     },
 ];
